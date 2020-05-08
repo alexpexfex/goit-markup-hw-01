@@ -27,3 +27,17 @@ span {
 .contact-link:focus {
   color: #2196f3;
 }
+.title {
+  color: #000000;
+}
+/* Поменять цвет текста и кнопки */
+.title-link {
+  color: #2196f3;
+}
+.title-link:hover,
+.title-link:focus {
+  color: #ff0000;
+}
+.overweight-caption: {
+  color: #212121;
+}
