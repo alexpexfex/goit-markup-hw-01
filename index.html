@@ -4,40 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio v.1</title>
-    <head>
-      <link rel="stylesheet" href="./CSS/style.css/" />
-    </head>
+    <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./">Web Studio </a>
-
+      <nav class="nav">
+        <a href="./" class="nav-logo"> Web <span>Studio</span> </a>
+        <!-- навигация -->
         <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="" class="navigation-link">Студия</a></li>
+          <li>
+            <a href="portfolio.html" class="navigation-link">Портфолио</a>
+          </li>
+          <li><a href="" class="navigation-link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111"> +38 096 111 11 11</a></li>
+      <ul class="contact">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contact-link">
+            +38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
+      <!-- герой -->
       <section>
         <h1>
           эффективные решения <br />
           для вашего бизнеса
         </h1>
         <a href="Заказатьуслугу">Заказать услугу</a>
-        <!--Ето кнопка-->
+        <!--ето кнопка-->
       </section>
+      <!-- предложения -->
       <section>
         <h2>Наши приемущества</h2>
         <ul>
           <li>
-            <img src="/CSS/Image/antena.svg" alt="Антена" width="278" />
+            <img src="/CSS/Image/antena.svg" alt="Антена" width="66.96" />
             <h3>Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
@@ -45,7 +55,7 @@
             </p>
           </li>
           <li>
-            <img src="/CSS/Image/clock.svg" alt="Часи" width="278" />
+            <img src="/CSS/Image/clock.svg" alt="Часи" width="66.96" />
             <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
@@ -54,7 +64,7 @@
           </li>
 
           <li>
-            <img src="/CSS/Image/laptop.svg" alt="Компютер" width="278" />
+            <img src="/CSS/Image/laptop.svg" alt="Компютер" width="66.96" />
             <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
@@ -62,7 +72,7 @@
             </p>
           </li>
           <li>
-            <img src="/CSS/Image/astronaut.svg" alt="Космонавт" width="278" />
+            <img src="/CSS/Image/astronaut.svg" alt="Космонавт" width="66.96" />
             <h3>Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -71,6 +81,7 @@
           </li>
         </ul>
       </section>
+      <!-- Работа -->
       <section>
         <h2>Чем мы занимаемся</h2>
         <ul>
@@ -88,7 +99,7 @@
           </li>
         </ul>
       </section>
-
+      <!-- наши сотрудники -->
       <section>
         <h2>Наша команда</h2>
         <ul>
@@ -165,6 +176,7 @@
           </li>
         </ul>
       </section>
+      <!-- клиенты -->
       <section>
         <h2>Постоянные клиенты</h2>
 

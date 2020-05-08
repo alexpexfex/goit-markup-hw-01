@@ -1,0 +1,29 @@
+/* основной цвет текста #757575; +*/
+/* цвет текств для заголовков и навигации #212121; */
+/* цвет заголовка #FFFFFF */
+/* цвет логотипа #2196F3 */
+/* бекграунд 3 секии  #F5F4FA */
+body {
+  color: #757575;
+  background-color: #ffffff;
+}
+span {
+  color: #000000;
+}
+.nav-logo {
+  color: #2196f3;
+}
+.navigation-link {
+  color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #2196f3;
+}
+.contact-link {
+  color: #757575;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
